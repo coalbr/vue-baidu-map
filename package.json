@@ -1,6 +1,6 @@
 {
   "name": "coalbr-vue-baidu-map",
-  "version": "0.22.00",
+  "version": "0.22.01",
   "description": "Baidu Map Component for Vue 2.0",
   "main": "index.js",
   "directories": {
