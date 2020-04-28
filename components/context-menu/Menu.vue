@@ -23,7 +23,7 @@ export default {
         parent.removeContextMenu(this.originInstance)
       }
       const menu = this.originInstance = new BMap.ContextMenu()
-      for (const item of this.$children) {
+      for (const item in this.$children) {
         if (item.seperator) {
           menu.addSeparator()
           continue

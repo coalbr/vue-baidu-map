@@ -1,7 +1,7 @@
 <template>
   <div v-if="paths.length">
     <bm-polygon
-      v-for="(path, index) of paths"
+      v-for="(path, index) in paths"
       :key="index"
       :path="path"
       :stroke-color="strokeColor"

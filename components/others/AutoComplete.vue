@@ -48,7 +48,7 @@ export default {
         location: location || map,
         onSearchComplete: e => {
           const $sugs = document.querySelectorAll('.tangram-suggestion-main')
-          for (const $sug of $sugs) {
+          for (const $sug in $sugs) {
             for (const name in sugStyle) {
               $sug.style[name] = sugStyle[name].toString()
             }

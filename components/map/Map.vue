@@ -215,7 +215,7 @@ export default {
         return
       }
       let $el = this.$refs.view
-      for (let $node of this.$slots.default || []) {
+      for (let $node in this.$slots.default || []) {
         if ($node.componentOptions && $node.componentOptions.tag === 'bm-view') {
           this.hasBmView = true
           $el = $node.elm
