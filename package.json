@@ -1,6 +1,6 @@
 {
-  "name": "vue-baidu-map",
-  "version": "0.21.22",
+  "name": "coalbr-vue-baidu-map",
+  "version": "0.22.00",
   "description": "Baidu Map Component for Vue 2.0",
   "main": "index.js",
   "directories": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dafrok/vue-baidu-map.git"
+    "url": "git+https://github.com/coalbr/vue-baidu-map.git"
   },
   "keywords": [
     "vue",
@@ -27,12 +27,12 @@
     "baidu",
     "map"
   ],
-  "author": "Dafrok <o.o@mug.dog>",
+  "author": "coalbr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Dafrok/vue-baidu-map/issues"
+    "url": "https://github.com/coalbr/vue-baidu-map/issues"
   },
-  "homepage": "https://github.com/Dafrok/vue-baidu-map#readme",
+  "homepage": "https://github.com/coalbr/vue-baidu-map#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
